@@ -1,0 +1,206 @@
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+	min-height: 100vh;
+}
+
+.card {
+	height: 100vh;
+}
+
+.result-box {
+	min-height: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+	border-bottom-left-radius: 10%;
+	border-bottom-right-radius: 10%;
+}
+
+.result-title {
+	font-size: 2rem;
+	color: hsl(0, 0%, 70%);
+    padding: 1em;
+}
+
+.result {
+	background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.result-text {
+	font-size: 5rem;
+	color: white;
+	font-weight: bold;
+}
+
+.result-text-mini {
+	font-size: 1.6rem;
+	color: hsl(0, 0%, 70%);
+	font-weight: 500;
+}
+
+.text-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    padding: 1em;
+}
+
+.title {
+	color: white;
+	font-weight: 600;
+	font-size: 2.5rem;
+}
+
+.text {
+	font-size: 1.8rem;
+	color: hsl(0, 0%, 70%);
+    text-align: center;
+    padding: 1em;
+}
+
+.summary-box {
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.summary-text {
+	width: 95%;
+	text-align: left;
+	font-size: 2rem;
+	color: #3F435B;
+	margin-bottom: 1em;
+}
+
+.feature {
+	display: flex;
+	padding: 2em;
+	background-color: #FFF7F5;
+	width: 95%;
+	justify-content: space-between;
+	border-radius: 12px;
+	margin-bottom: 1.5em;
+	overflow: hidden;
+}
+
+.feature-box {
+	display: flex;
+	align-items: center;
+}
+
+.feature-text {
+	font-size: 1.8rem;
+	padding-left: 0.5em;
+}
+
+.first {
+	color: #F55;
+}
+
+.second {
+	color: #FFB21E;
+}
+
+.third {
+	color: #00BB8F;
+}
+
+.fourth {
+	color: #1125D6;
+}
+
+.feature-result {
+	font-size: 1.8rem;
+}
+
+.result-bold {
+	font-weight: bold;
+}
+
+.button-box {
+	width: 95%;
+}
+
+
+.button {
+	width: 95%;
+	padding: 0.8em;
+	border-radius: 30px;
+	background-color:#313A59;
+	color: white;
+	border: none;
+	font-size: 1.8rem
+}
+
+.footer-text {
+	text-decoration: none;
+	color: #313A59;
+}
+
+@media(min-width: 1440px) {
+
+	.main {
+		width: 100%;
+		height: 100vh;
+		background-color:hsl(0, 0%, 90%);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.card {
+		display: flex;
+		height: 50vh;
+		width: 50%;
+		background-color: white;
+		border-radius: 5%;
+	}
+
+	.result-box {
+		width: 50%;
+		border-radius: 5%;
+	}
+
+	.summary-box {
+		width: 50%;
+	}
+
+	.result {
+		width: 180px;
+		height: 180px;
+	}
+
+	.result-text {
+		font-size: 6.5rem;
+	}
+	
+	.result-text-mini {
+		font-size: 1.8rem;
+	}
+}
+
