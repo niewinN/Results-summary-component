@@ -154,7 +154,12 @@ body {
 	background-color:#313A59;
 	color: white;
 	border: none;
-	font-size: 1.8rem
+	font-size: 1.8rem;
+	transition: background-color .3s
+}
+
+.button:hover {
+	 background-color: hsl(241, 81%, 54%);
 }
 
 .footer {
